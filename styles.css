@@ -1,0 +1,56 @@
+body{
+	background-color: #280a50;
+}
+.heading{
+    font-family: 'Roboto', sans-serif;
+	color:white;
+}
+.maintext{
+    font-family: 'Quicksand', sans-serif;
+	color:white;
+}
+#wrapper{
+	width: 1600px;
+	height: 900px;
+	margin: 0 auto;
+	background-color:#280a50;
+}
+#header{
+	width: 100%;
+	height: 15%;
+	background-color: #3d1472;
+	border:2px outset #ffe6ff;
+}
+#sidebar{
+	width: 15%;
+	height: 85%;
+	background-color: #5f28a6;
+	float: left;
+}
+#main{
+	width: 70%;
+	height: 85%;
+	background-image: url("ninja.png");
+	background-repeat: no-repeat;
+	float: right;
+}
+a{
+	display: block;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+h1,a,img,p{
+	padding: 15px;
+}
+a:link, a:visited {
+  background-color: #5f28a6;
+  color:white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: #ff66ff;
+}
+	
